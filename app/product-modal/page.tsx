@@ -1,4 +1,10 @@
 import React from 'react'
+import { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: "Product Modal",
+  description: "Product Modal built with Next.js",
+};
 
 const page = () => {
     return (

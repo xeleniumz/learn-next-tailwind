@@ -1,6 +1,13 @@
 
 import React from 'react'
 import Card from './card'
+import { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: "Pricing Card",
+  description: "Pricing Card built with Next.js",
+};
+
 
 const data = [
     {
